@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+body{
+	font-size:16px;
+	margin: 0 auto;     /* 边距为0  左右居中*/
+	width:1032px;
+	height:391px;
+}
+
+.login table{
+	width:240px;
+	height:80px;	
+	margin-top:12px;
+	margin-left:2px;
+	border-collapse:collapse;
+	line-height:10px;
+	float:right;
+}
+
+.welcome image{
+	margin-top:12px;
+	margin-left:2px;
+	width:786px;
+	height:391px;
+	float:left;
+}
+
+.customer{
+	width:1024px;
+	height:760px;
+	margin-left:2px;
+	background-image:url("../images/customer.jpg");
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	float:left;
+}
+
+.supplier{
+	width:1024px;
+	height:800px;
+	margin-left:2px;
+
+	background-image:url("../images/supplier.gif");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	float:left;
+	
+}
+
+.hall{
+	background-color: #FEFEF6;
+	float:left;
+}
+
+.cart{
+	background-color: #FEFDF8;
+	float:left;
+	
+}
+
+.order{
+	background-image:url("../images/customer.jpg");
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	float:left;
+}

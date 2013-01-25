@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+<link href="css/index.css" type="text/css" rel="stylesheet"/>
+ 
+</head>
+<body>
+<center>
+	<h1>Welcome to Guan online shop!</h1>
+</center>	
+	<br/>
+	
+	 <div class="login">
+		<table  border="0" style="border-collapse:collapse">
+		<tr><th rowspan="13"> 
+	    <div class="welcome">
+        <img src="images/welcome.jpg"/>
+        </div></th>
+		<td colspan="2">Existing User!</td>
+		</tr>
+		<tr>
+		<td>Login as:</td>
+		
+		<form action="/DBproject/LoginCLServlet" method="post">	
+		<td>
+		<select name="choice">
+						<option value="customer">Customer</option>
+						<option value="supplier">Supplier</option>
+						<option value="manager">Manager</option>
+         </select>	
+		</td>
+		</tr>
+		<tr>
+		<td>User  Id</td>
+		<td><input type="text" name="id"/></td>
+		</tr>
+		<tr>
+		<td>Password</td>
+		<td><input type="password" name="password"/></td>
+		</tr>
+		<tr>
+		<center>
+		<td colspan="2"><input type="submit"  value="Login"/></td></center>
+		</form>		
+		</tr>
+		<tr><td> </td><td> </td></tr>
+		<tr><td> </td><td> </td></tr>
+		<tr><td> </td><td> </td></tr>
+		<tr><td> </td><td> </td></tr>
+		<tr><td> </td><td> </td></tr>
+		<tr>
+		<td colspan="2">New User!</td>	
+		</tr>
+		<tr>
+		<td>Register</td>
+		<form action="/DBproject/RegisterServlet" method="post">	
+		<td>	
+		<select name="choice">
+						<option value="customer">Customer</option>
+						<option value="supplier">Supplier</option>
+         </select>	
+		 </td>
+		</tr>
+		<tr>
+		<td><input type="submit"  value="Sign up"/></td>
+		</form>		
+		<td></td>
+		</tr>
+		
+    </table>		
+    
+</body>
+</html>
